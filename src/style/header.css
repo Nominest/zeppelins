@@ -1,0 +1,21 @@
+header img {
+  gap: 50px;
+  height: 36px;
+}
+header ul {
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+}
+header a {
+  color: #424242;
+  text-decoration: none;
+  font-size: 14px;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  font-size: 14px;
+}

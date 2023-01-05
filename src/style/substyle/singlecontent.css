@@ -1,0 +1,27 @@
+.singlecontent {
+  display: flex;
+  flex-direction: column;
+}
+#title {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  color: #d05270;
+  font-size: 24px;
+}
+#read {
+  color: #d05270;
+  font-size: 18px;
+}
+#description {
+  font-size: 18px;
+}
+.card {
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.cardconatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,22 @@
+#pink {
+  font-size: 52px;
+  color: #d05270;
+  font-weight: 700;
+}
+#large {
+  font-size: 52px;
+  font-weight: 500;
+}
+.main-left {
+  width: 60%;
+}
+.social {
+  display: flex;
+  gap: 18px;
+  margin-top: 36px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
