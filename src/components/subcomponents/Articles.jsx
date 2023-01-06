@@ -3,7 +3,7 @@ import SingleContent from "./Singlecontent";
 // Category is News NW, tutorials - TUT, UX, UI, ProductDesign - PD, articles - ART
 // CATEGORY  [NW, UI, UX, PD, ART, TUT];
 
-const data = [
+let data = [
   {
     title: "User Interface (UI) Design",
     image:
@@ -347,18 +347,16 @@ const data = [
 export default function Articles() {
   return (
     <div className="article">
-      <SingleContent
-        image={data[0].image}
-        title={data[0].title}
-        description={data[0].description}
-        category={data[0].category}
-      />
-      <SingleContent
-        image={data[1].image}
-        title={data[1].title}
-        description={data[1].description}
-        category={data[1].category}
-      />
+      {data.map((data, index) => {
+        return (
+          <SingleContent
+            image={data.image}
+            title={data.title}
+            description={data.description}
+            category={data.category}
+          />
+        );
+      })}
     </div>
   );
 }
